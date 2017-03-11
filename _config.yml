@@ -1,0 +1,13 @@
+page_title: My proffesional career
+contact_email: marek.bernd@gmail.com
+#site_description: > # this means to ignore newlines until next tag
+
+menu_1: Who am I
+menu_2: My sport
+menu_3: Other hobbies
+menu_4: Programming skills
+menu_5: Personal projects
+menu_6: WPUB project
+
+# Build settings
+markdown: kramdown
