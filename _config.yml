@@ -9,5 +9,8 @@ menu_4: Programming skills
 menu_5: Personal projects
 menu_6: WPUB project
 
+gems:
+  - jemoji
+
 # Build settings
 markdown: kramdown
