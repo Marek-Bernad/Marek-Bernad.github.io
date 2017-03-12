@@ -18,5 +18,4 @@ HTML, CSS, JavaScript, JQuery, PhP, MySQL, PostgreSQL, SQL, Redis, C, C++, Java,
 
 ##### My help video made for StackOverflow user:
 
-<!-- NOT WORKING WITH GITHUBPAGES, PLEASE FOR LOCALHOST UNCOMMENT THIS: {% youtube ntj1J5mSZxI %} -->
 
