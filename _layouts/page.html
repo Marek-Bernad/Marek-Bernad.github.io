@@ -1,14 +1,20 @@
 ---
 layout: default
 ---
+<div>
 <article class="post">
-
+  <!-- nazov postu -->
   <header class="post-header">
-    <h3 class="post-title">{{ page.title | escape }}</h3>
+    <h2 class="post-content">
+      {{ page.title | escape }}
+    </h2>
   </header>
-
-  <div class="post-content">
+  <div class="post-content" itemprop="articleBody">
+    <!-- obsah postu -->
+    <div>
     {{ content }}
+    </div>
   </div>
+</div>
 
 </article>

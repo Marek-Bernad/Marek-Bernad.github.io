@@ -64,6 +64,8 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2017.1)
       tzinfo (>= 1.0.0)
+    yt (0.29.1)
+      activesupport
 
 PLATFORMS
   x86-mingw32
@@ -74,6 +76,7 @@ DEPENDENCIES
   jemoji
   minima (~> 2.0)
   tzinfo-data
+  yt
 
 RUBY VERSION
    ruby 2.3.3p222

@@ -13,6 +13,10 @@ collections:
  sports:
       output: false
 
+youtube:
+    api_key: ae72421fa851c4eb9652966ade38865f4c80ca6d
+videoid: ntj1J5mSZxI
+
 gems:
   - jemoji
 

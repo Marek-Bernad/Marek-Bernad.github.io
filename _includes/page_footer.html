@@ -1,16 +1,19 @@
  <div class="wrapper">  
-    <div class="footer-col-wrapper"> 
- 
+    <div class="footer-col-wrapper">  
       <div class="footer-col footer-col-1"> 
    
          <ul class="contact-list">  
            <li> 
+             <!-- test for  existing site contact label -->
             {% if site.contact_lab %} 
               {{ site.contact_lab | escape }} 
             {% endif %}  
             </li>  
+            <!-- if exist mail string variable then output it -->
             {% if site.contact_email %}  
-            <li><a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></li>   
+              <li><a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></li>   
+            {% else %}  
+                <li><a href="">Wrong mail reference</a></li>   
             {% endif %}  
          </ul>  
        </div>  

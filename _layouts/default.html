@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-	<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+	<html lang="{{ page.lang | default: site.lang | default: "en" }}" style="background-color: black;">
 
 		<head>
 			{% include head.html %}
 		</head>
 
 		<body>
-			<header class="site-header" role="banner">
+			<header class="site-header" role="banner" style="background-color:#accaf9;">
 				{% include page_header.html %}
 			</header>
 				
@@ -15,7 +15,7 @@
 					<span style="float:right; font-weight: bold;">{{ site.site_author | escape }}</span>
 					    {% for my_page in site.pages %}
 							{% if my_page.title %}
-								<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+								<a class="page-link" href="{{ my_page.url | relative_url }}" style="font-weight: bold;">{{ my_page.title | escape }}</a>
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							{% endif %}
 						{% endfor %}
@@ -26,7 +26,7 @@
 				{{ content }}
 				</div>
 			</main>
-			<footer class="site-footer">
+			<footer class="site-footer" style="background-color: #accaf9;">
 				{% include page_footer.html %}
 			</footer>
 		</body>

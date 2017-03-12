@@ -8,7 +8,7 @@ title: WPUB project
 
   <h1 class="page-heading">Posts</h1>
 
-
+      <hr>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -18,6 +18,7 @@ title: WPUB project
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
       </li>
+            <hr>
     {% endfor %}
   </ul>
 

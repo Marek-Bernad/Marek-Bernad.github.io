@@ -19,6 +19,7 @@ gem "minima", "~> 2.0"
 # gem "github-pages", group: :jekyll_plugins
 
 gem 'jemoji'
+gem 'yt'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
