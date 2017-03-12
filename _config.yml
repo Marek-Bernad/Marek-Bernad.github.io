@@ -1,13 +1,17 @@
+
+
 page_title: My proffesional career
 contact_email: marek.bernd@gmail.com
-#site_description: > # this means to ignore newlines until next tag
+contact_lab: This is my contact mail
+copyright: School work (©) 2017
+site_author: Marek Bernád
+author_birthday: 1994
 
-menu_1: Who am I
-menu_2: My sport
-menu_3: Other hobbies
-menu_4: Programming skills
-menu_5: Personal projects
-menu_6: WPUB project
+collections:
+ hobbies:
+      output: true
+ sports:
+      output: false
 
 gems:
   - jemoji

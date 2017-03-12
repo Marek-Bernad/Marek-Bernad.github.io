@@ -9,6 +9,18 @@
 			<header class="site-header" role="banner">
 				{% include page_header.html %}
 			</header>
+				
+				<div class="wrapper">
+					<ul class="nav nav-tabs">
+					<span style="float:right; font-weight: bold;">{{ site.site_author | escape }}</span>
+					    {% for my_page in site.pages %}
+							{% if my_page.title %}
+								<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</div>
 			<main class="page-content" aria-label="Content">
 				<div class="wrapper">
 				{{ content }}
