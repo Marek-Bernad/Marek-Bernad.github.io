@@ -10,7 +10,7 @@ author: Bernád
 
 * * *
 
-#### I've used this technologies to construt my web page:
+#### I've used this technologies to construct my web page:
 1. ##### Jekyll
 2. ##### Git
 3. ##### GitHub Pages

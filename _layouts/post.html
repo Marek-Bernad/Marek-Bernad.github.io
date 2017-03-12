@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -17,7 +17,9 @@ layout: default
           <!-- autor postu ak je definovany -->
       {% if page.author %} • 
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">{{ page.author }}</span>
+      <span itemprop="name">
+        [{{ page.author }}]
+        </span>
       </span>{% endif %}</p>
   </header>
 
@@ -26,3 +28,4 @@ layout: default
   </div>
 
 </article>
+</div>
